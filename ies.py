@@ -1,8 +1,8 @@
 
 class alumno:
-    def __init__(self):
-        self.notas= 0
-        self.nombre=""
+    def __init__(self,nombre,nota):
+        self.notas=nota
+        self.nombre=nombre
 
     def imprimir(self):
           self.nombre= ""
