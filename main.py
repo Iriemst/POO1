@@ -1,7 +1,7 @@
 from ies import alumno
 
 def main():
-    jorge=alumno("daniel",6)
+    jorge=alumno("Daniel",6)
     jorge.imprimir()
     
 if __name__=="__main__":
