@@ -1,10 +1,11 @@
-from persona import persona
+from persona import Persona
+
 def main():
-    fabio=persona("Fabio",18)
+    fabio=Persona("Fabio",18)
     fabio.imprimir()
     fabio.cumpleanios()
 
-    samu=persona("Samu",54)
+    samu=Persona("Samu",54)
     samu.imprimir()
     samu.cumpleanios()
     
