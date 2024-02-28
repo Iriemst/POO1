@@ -1,7 +1,7 @@
-from ies import alumno
+import alumno
 
 def main():
-    jorge=alumno()
+    jorge=alumno.alumno()
     jorge.nota= 7
     jorge.imprimir
 
