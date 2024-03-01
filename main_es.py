@@ -1,2 +1,0 @@
-from ies import alumno
-
