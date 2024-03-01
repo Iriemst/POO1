@@ -10,5 +10,5 @@ class Crypto:
         self.max=0.
         
     def imprimir(self):
-        print(f"El valor de{self.nombre} es  {self.euros } euros")
+        print(f"El valor de {self.nombre} es {self.euros} euros")
         print(f"El valor de StopLoss min es:{self.min} y el max: {self.max}")
