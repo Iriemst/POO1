@@ -10,6 +10,17 @@ class Persona:
         self.anios+=+1
         print(self.nombre,"cumple un año", "tiene",self.anios)
 
+
+def main():
+    fabio=Persona("Fabio",18)
+    fabio.imprimir()
+    fabio.cumpleanios()
+
+    samu=Persona("Samu",54)
+    samu.imprimir()
+    samu.cumpleanios()
+    
+
 if __name__=="__main_persona__":
     main()
         

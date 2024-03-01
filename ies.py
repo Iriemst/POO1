@@ -12,3 +12,12 @@ class alumno:
             print("Promociona")
         else:
             print("No promociona")
+
+def main():
+    jorge=alumno("Daniel",6)
+    jorge.imprimir()
+    
+if __name__=="__main_es__":
+    main()
+
+main()
