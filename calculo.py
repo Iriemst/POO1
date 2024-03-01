@@ -18,3 +18,11 @@ class Calculo:
     def division(self, numero1,numero2):
         resultado= self.numero1 / self.numero2
         print(f"Resultado de la division de {self.numero1} / {self.numero2} es {resultado}")
+
+
+if __name__=="__main__":
+    calculo=Calculo(5,7)
+    calculo.suma(5,7)
+    calculo.resta(5,7)
+    calculo.multiplicacion(5,7)
+    calculo.division(5,7)
